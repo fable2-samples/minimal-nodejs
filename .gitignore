@@ -1,0 +1,7 @@
+.fable
+node_modules
+out
+paket.restore.cached
+src/bin
+src/obj
+.paket/.store

@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "npx fable-splitter src/ -w --run",
+    "build": "npx fable-splitter src/ -w --run -o out/"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "fable-compiler": "^2.1.11",
+    "fable-loader": "^2.1.2",
+    "fable-splitter": "^2.1.2"
+  }
+}
