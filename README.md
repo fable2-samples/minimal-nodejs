@@ -19,12 +19,16 @@ Checkout other sample apps at [fable2-samples](https://github.com/fable2-samples
 
 ### install F# dependencies
 
-- Windows: `.paket/paket.exe install` ()
+- Windows: `.paket/paket.exe install`
 - Non-Windows: `mono .paket/paket.exe install`
 
 Alternatively install paket as a global .NET tool
 
-`dotnet tool install --tool-path ".paket" Paket --add-source https://api.nuget.org/v3/index.json --framework netcoreapp2.1`
+```bash
+$ dotnet tool install --tool-path ".paket" Paket --add-source https://api.nuget.org/v3/index.json --framework netcoreapp2.1
+```
+
+With defaults, try simply: `$ dotnet tool install Paket`
 
 In this case, make sure that the install location of `paket` is in your system `PATH`, see: [dotnet-tool-install](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-tool-install)
 
