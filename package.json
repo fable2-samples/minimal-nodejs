@@ -7,7 +7,7 @@
     "paket:mono": "mono .paket/paket.exe install",
     "paket": ".paket/paket.exe install"
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.2.2",
     "fable-compiler": "^2.1.11",
     "fable-loader": "^2.1.2",
