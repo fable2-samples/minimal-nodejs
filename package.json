@@ -2,7 +2,10 @@
   "private": true,
   "scripts": {
     "start": "npx fable-splitter src/ -w --run",
-    "build": "npx fable-splitter src/ -w --run -o out/"
+    "build": "npx fable-splitter src/ -w --run -o out/",
+    "restore": "dotnet restore src/App.fsproj",
+    "paket:mono": "mono .paket/paket.exe install",
+    "paket": ".paket/paket.exe install"
   },
   "dependencies": {
     "@babel/core": "^7.2.2",

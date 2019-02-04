@@ -19,8 +19,8 @@ Checkout other sample apps at [fable2-samples](https://github.com/fable2-samples
 
 ### install F# dependencies
 
-- Windows: `.paket/paket.exe install`
-- Non-Windows: `mono .paket/paket.exe install`
+- Windows: `.paket/paket.exe install` or `yarn run paket`
+- Non-Windows: `mono .paket/paket.exe install` or `yarn run paket:mono`
 
 Alternatively install paket as a global .NET tool
 
